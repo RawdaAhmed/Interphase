@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.page1::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.4);
+    z-index: -1;
+}
+.navBar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 35px;
+}
+ul
+{
+    display: flex;
+    list-style: none;  
+}
+ul li
+{
+    margin: 0 20px;
+}
+.anchor
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.page1 .box
+{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 220px;
+    font-family: 'Lato', sans-serif;
+}
+.button1
+{
+    color: white;
+    border-color: white;
+    background: none;
+    cursor: default;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: inherit;
+    pointer-events: auto;
+    cursor: pointer;
+}
+.box p,h1
+{
+    font-weight: 100;
+    padding: 10px 10px;
+}
+.page2
+{
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(60deg, #4dac71 50%, #3ba666 50%);
+}
+.container
+{
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt 
+{
+    text-align: center;
+    padding: 80px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.div1,.div2,.div3
+{
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+}
+.icon
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.page3 .txt
+{
+    color: black;
+}
+.page3
+{
+    height: 300px;
+    width: 100%;
+}
+hr
+{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+.images
+{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    margin: auto;
+    color: darkslategrey;
+    font-weight: 50;
+    /* padding: 20px 20px 20px 20px; */
+    /* flex-grow: 5; */
+}
+.images div
+{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+}
+.images img
+{
+    border-radius: 8px;
+} 
+.images p
+{
+    height: 100px;
+    text-size-adjust: 10px;
+}
+.images h2
+{
+    font-weight: 100;
+    padding: 0 0 30px 30px;
+}
+.images button
+{
+    color: darkslategrey;
+    border-color: gray;
+    margin-bottom: 40px;
+    cursor: pointer;
+    padding: 20px;
+    background: none;
+    border-radius: 8px;
+    font-size: 25px;
+    font-family: inherit;
+}
+.page4
+{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+}
+.page4 .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-grow: 15; */
+}
+.page4 h2,.page4 p,.page4 a
+{
+    color: white;
+}
+.page4 h2,.page4 p,.page4 a
+{
+    padding: 20px;
+}
+.page4 .d1,.page4 .d2,.page4 .d3
+{
+    padding: 60px;
+    width: 30%;
+    height: 400px;
+}
+.page4 .d3 .icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page4 .d3 .icons .icon
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+    /* border: gray; */
+    /* font-size: 20px; */
+}
+.page4 .d3 .address,.page4 .d3 .phone,.page4 .d3 .email
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.d1 a,.d2 a{
+    cursor: pointer;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.vl {
+    border-left: 6px solid gray;
+    height: 20px;
+  }
